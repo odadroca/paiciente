@@ -1,0 +1,1 @@
+Each file in this folder describes how to instantiate PAIciente on a specific platform. The system prompt is in `/prompt/system-prompt.md`. Copy it verbatim into the platform's system prompt or instruction field. No platform-specific modifications to the prompt are required — PAIciente handles language and context natively.
