@@ -203,7 +203,7 @@ Important review/meta-analysis showing positive effects for two widely dissemina
 ## 15. Murrihy et al. (2023) — CPS vs PMT Randomized Trial
 
 **Citation**
-Murrihy, R. C., Drysdale, S. A. O., Dedousis-Wallace, A., Remond, L., McAloon, J., Ellis, D. M., Halldorsdottir, T., Greene, R. W., & Ollendick, T. H. (2023). *Community-delivered Collaborative and Proactive Solutions and Parent Management Training for oppositional youth: A randomized trial*. *Behaviour Therapy, 54*(2), 400–417.
+Murrihy, R. C., Drysdale, S. A. O., Dedousis-Wallace, A., Rémond, L., McAloon, J., Ellis, D. M., Halldorsdottir, T., Greene, R. W., & Ollendick, T. H. (2023). *Community-delivered Collaborative and Proactive Solutions and Parent Management Training for oppositional youth: A randomized trial*. *Behaviour Therapy, 54*(2), 400–417.
 
 **Summary**
 Community-based randomized trial showing that CPS performed comparably to PMT for youth with ODD, with benefits maintained at follow-up.
@@ -217,7 +217,7 @@ Community-based randomized trial showing that CPS performed comparably to PMT fo
 ## 16. Dedousis-Wallace et al. (2025) — Predictors and Moderators of PMT vs CPS
 
 **Citation**
-Dedousis-Wallace, A., Drysdale, S. A. O., McAloon, J., Murrihy, R. C., Greene, R. W., & Ollendick, T. H. (2025). *Predictors and moderators two treatments of oppositional defiant disorder in children*. *Journal of Clinical Child & Adolescent Psychology, 54*(1), 67–82.
+Dedousis-Wallace, A., Drysdale, S. A. O., McAloon, J., Murrihy, R. C., Greene, R. W., & Ollendick, T. H. (2025). *Predictors and moderators of two treatments of oppositional defiant disorder in children*. *Journal of Clinical Child & Adolescent Psychology, 54*(1), 67–82.
 
 **Summary**
 Secondary analysis indicating that treatment fit may differ depending on factors such as parental attributions, inconsistent discipline, and lagging skills.
@@ -246,7 +246,7 @@ Systematic review showing how socioeconomic conditions, family functioning, pare
 ## 18. Njardvik et al. (2025) — Psychiatric Comorbidity in ADHD
 
 **Citation**
-Njardvik, U., Wergeland, G. J., Riise, E. N., Hannesdottir, D. K., & Ost, L.-G. (2025). *Psychiatric comorbidity in children and adolescents with ADHD: A systematic review and meta-analysis*. *Clinical Psychology Review, 118*, 102571.
+Njardvik, U., Wergeland, G. J., Riise, E. N., Hannesdottir, D. K., & Öst, L.-G. (2025). *Psychiatric comorbidity in children and adolescents with ADHD: A systematic review and meta-analysis*. *Clinical Psychology Review, 118*, 102571.
 
 **Summary**
 Large meta-analysis showing high psychiatric comorbidity in pediatric ADHD; ODD was among the most common co-occurring conditions.

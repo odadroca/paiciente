@@ -56,7 +56,7 @@ See [`/implementations/`](implementations/) for step-by-step setup instructions 
 
 ## Limitations
 
-PAIciente has meaningful limits that should be understood explicitly:
+PAIciente has meaningful limits that should be documented explicitly:
 
 - It is a simulation and coaching aid, not a diagnostic engine.
 - It cannot replace a treating clinician, school team, or emergency assessment.
