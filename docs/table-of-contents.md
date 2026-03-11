@@ -30,13 +30,13 @@ A single-page overview of every document in the PAIciente repository.
 | File | Description |
 |---|---|
 | [docs/overview.md](overview.md) | Purpose, scope, and architecture |
-| [docs/personas.md](personas.md) | Clinician and child persona specifications |
+| [docs/personas.md](personas.md) | Clinician and child persona specifications, `@set` state modulation |
 | [docs/workflow.md](workflow.md) | Recommended usage sequence |
 | [docs/behavior-map.md](behavior-map.md) | Unique instruction set mapping |
-| [docs/inner-state-guide.md](inner-state-guide.md) | User guide for `/child:inner` — the four annotation fields and when to use them |
+| [docs/inner-state-guide.md](inner-state-guide.md) | User guide for `@child:inner` and `@set` — annotation fields, escalation path, trajectory, and state injection |
 | [docs/evidence-map.md](evidence-map.md) | Academic grounding for each design element |
 | [docs/limitations.md](limitations.md) | Safety boundaries and explicit constraints |
-| [docs/use-cases.md](use-cases.md) | Example scenarios: homework, device transition, bedtime |
+| [docs/use-cases.md](use-cases.md) | Example scenarios: homework, device transition, bedtime, compound stress |
 
 ---
 
@@ -58,7 +58,7 @@ A single-page overview of every document in the PAIciente repository.
 | [implementations/chatgpt.md](../implementations/chatgpt.md) | Setup via Custom GPT (GPT Store) |
 | [implementations/mistral.md](../implementations/mistral.md) | Setup via Le Chat Agent |
 | [implementations/gemini.md](../implementations/gemini.md) | Setup via Gemini Gem |
-| [implementations/grok.md](../implementations/grok.md) | Setup via Grok (4,000-char limit warning) |
+| [implementations/grok.md](../implementations/grok.md) | Setup via Grok (character limit warning) |
 | [implementations/llama.md](../implementations/llama.md) | Self-hosting with Ollama or Meta AI Studio |
 
 ---

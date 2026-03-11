@@ -12,20 +12,30 @@
 
 | Command | Função | Notas |
 |---|---|---|
-| `/clinician` | Ativa a persona de clínico. | Predefinição no início da conversa. |
-| `/child` | Ativa a persona da criança. | Utilizado para simulação ao vivo. |
-| `/child:inner` | Adiciona uma anotação de estado interno após a resposta da criança. | Uma referência rápida para o cuidador. |
-| `/child:inner off` | Remove a anotação de estado interno. | Retorna a persona da criança ao formato padrão. |
-| `/status` | Indica a persona ativa e o contexto da conversa até ao momento. | Útil em sessões longas. |
+| `@clinician` | Ativa a persona de clínico. | Predefinição no início da conversa. |
+| `@child` | Ativa a persona da criança. | Utilizado para simulação ao vivo. |
+| `@child:inner` | Adiciona uma anotação de estado interno após a resposta da criança (sentimento, ativação, o que ajudaria, o que piorou, trajetória de escalada). | Uma referência rápida para o cuidador. |
+| `@child:inner off` | Remove a anotação de estado interno. | Retorna a persona da criança ao formato padrão. |
+| `@status` | Indica a persona ativa e o contexto da conversa até ao momento. | Útil em sessões longas. |
+
+### State modulation
+
+| Command | Função | Notas |
+|---|---|---|
+| `@set [p]=[v]` | Define parâmetros de estado da criança (arousal, trajectory, trust, fatigue, medication, hyperfocus, feeling, context). | Condição inicial; deriva orgânica aplica-se. |
+| `@set [p]=[v] persist` | Igual ao anterior, mas bloqueia o valor contra deriva orgânica. | Útil para cenários controlados. |
+| `@set clear` | Repõe todos os overrides manuais ao estado orgânico simulado. | Também repõe o estado da criança suspenso após `@debrief`. |
+| `@set ?` | Apresenta a tabela de parâmetros com valores válidos. | Referência rápida sem modificar o estado. |
+| `@ [p]=[v]` | Alias abreviado para `@set`; chaves numéricas aceites. | Ex.: `@ arousal=3 trust=2`. |
 
 ### Review and planning controls
 
 | Command | Função | Notas |
 |---|---|---|
-| `/replay` | Repete a última interação com a criança usando uma nova abordagem do adulto. | Suporta prática deliberada. |
-| `/debrief` | Muda para modo clínico para análise da interação anterior. | Foca-se em antecedente, comportamento e consequência. |
-| `/script [tarefa]` | Produz um guião para o cuidador e uma lista de verificação visual para uma tarefa específica. | Exemplo: trabalhos de casa, sair de casa, hora de dormir. |
-| `/escalation-map [cenário]` | Mapeia caminhos prováveis de escalada e bifurcações de desescalada. | Útil para rotinas com transições ou elevado conflito. |
+| `@replay` | Repete a última resposta da criança e solicita uma nova abordagem do adulto. | O utilizador fornece a nova abordagem; o modelo não gera alternativa automaticamente. |
+| `@debrief` | Muda para modo clínico para análise da interação anterior. O estado da criança é suspenso, não apagado. | Foca-se em antecedente, comportamento e consequência. |
+| `@script [tarefa]` | Produz um guião para o cuidador e uma lista de verificação visual para uma tarefa específica. | Exemplo: trabalhos de casa, sair de casa, hora de dormir. |
+| `@escalation-map [cenário]` | Mapeia caminhos prováveis de escalada e bifurcações de desescalada. | Útil para rotinas com transições ou elevado conflito. |
 
 ---
 

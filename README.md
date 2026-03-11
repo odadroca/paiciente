@@ -24,20 +24,30 @@ The intended scope is narrow by design. It is a simulation and documentation aid
 
 | Command | Function | Notes |
 |---|---|---|
-| `/clinician` | Activates the clinician persona. | Default at conversation start. |
-| `/child` | Activates the child persona. | Used for live role-play. |
-| `/child:inner` | Adds an inner-state annotation after the child reply (feeling, arousal, what would help, what made it worse). | A compact cheat-sheet for the caregiver. See [guide](docs/inner-state-guide.md). |
-| `/child:inner off` | Removes the inner-state annotation. | Returns the child persona to standard output. |
-| `/status` | Reports the active persona and conversation context so far. | Useful for long sessions. |
+| `@clinician` | Activates the clinician persona. | Default at conversation start. |
+| `@child` | Activates the child persona. | Used for live role-play. |
+| `@child:inner` | Adds an inner-state annotation after the child reply (feeling, arousal, what would help, what made it worse, escalation path). | A compact cheat-sheet for the caregiver. See [guide](docs/inner-state-guide.md). |
+| `@child:inner off` | Removes the inner-state annotation. | Returns the child persona to standard output. |
+| `@status` | Reports the active persona and conversation context so far. | Useful for long sessions. |
+
+### State modulation
+
+| Command | Function | Notes |
+|---|---|---|
+| `@set [p]=[v]` | Overrides one or more child state parameters (arousal, trajectory, trust, fatigue, medication, hyperfocus, feeling, context). | Injected as starting condition; organic drift applies. |
+| `@set [p]=[v] persist` | Same as above, but locks the value against organic drift. | Useful for controlled scenarios. |
+| `@set clear` | Resets all manual overrides to simulated organic state. | Also resets suspended child state after `@debrief`. |
+| `@set ?` | Outputs the parameter table with valid values. | Quick reference without modifying state. |
+| `@ [p]=[v]` | Shorthand alias for `@set`; numeric keys accepted. | e.g. `@ arousal=3 trust=2`. |
 
 ### Review and planning controls
 
 | Command | Function | Notes |
 |---|---|---|
-| `/replay` | Re-runs the last child interaction using a new adult approach. | Supports deliberate practice. |
-| `/debrief` | Switches to clinician mode for analysis of the previous exchange. | Focuses on antecedent, behavior, and consequence. |
-| `/script [task]` | Produces a parent script and a visual checklist for a named task. | Example: homework, leaving the house, bedtime. |
-| `/escalation-map [scenario]` | Maps likely escalation paths and de-escalation forks. | Useful for transition-heavy or high-conflict routines. |
+| `@replay` | Re-outputs the last child turn, then prompts for a new adult approach. | User supplies the new input; model does not auto-generate. |
+| `@debrief` | Switches to clinician mode for analysis of the previous exchange. Child state is suspended, not cleared. | Focuses on antecedent, behavior, and consequence. |
+| `@script [task]` | Produces a parent script and a visual checklist for a named task. | Example: homework, leaving the house, bedtime. |
+| `@escalation-map [scenario]` | Maps likely escalation paths and de-escalation forks. | Useful for transition-heavy or high-conflict routines. |
 
 ---
 
@@ -76,7 +86,7 @@ Full documentation is available in [`/docs/`](docs/). See the [Table of Contents
 - [Personas](docs/personas.md) — clinician and child persona specifications
 - [Workflow](docs/workflow.md) — recommended usage sequence
 - [Behavior map](docs/behavior-map.md) — unique instruction set
-- [Inner-state guide](docs/inner-state-guide.md) — using `/child:inner`
+- [Inner-state guide](docs/inner-state-guide.md) — using `@child:inner` and `@set`
 - [Evidence map](docs/evidence-map.md) — academic grounding
 - [Limitations](docs/limitations.md) — safety boundaries
 - [Use cases](docs/use-cases.md) — example scenarios

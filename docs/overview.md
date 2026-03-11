@@ -14,25 +14,35 @@ The intended scope is narrow by design. It is a simulation and documentation aid
 
 ## 2. High-level architecture
 
-PAIciente operates through two explicitly switchable personas and a small command vocabulary. The active persona determines both tone and response format.
+PAIciente operates through two explicitly switchable personas and a command vocabulary. The active persona determines both tone and response format.
 
 ### 2.1 Core mode controls
 
 | Command | Function | Notes |
 |---|---|---|
-| `/clinician` | Activates the clinician persona. | Default at conversation start. |
-| `/child` | Activates the child persona. | Used for live role-play. |
-| `/child:inner` | Adds an inner-state annotation after the child reply. | A compact cheat-sheet for the caregiver. |
-| `/child:inner off` | Removes the inner-state annotation. | Returns the child persona to standard output. |
-| `/status` | Reports the active persona and conversation context so far. | Useful for long sessions. |
+| `@clinician` | Activates the clinician persona. | Default at conversation start. |
+| `@child` | Activates the child persona. | Used for live role-play. |
+| `@child:inner` | Adds an inner-state annotation after the child reply. | A compact cheat-sheet for the caregiver. |
+| `@child:inner off` | Removes the inner-state annotation. | Returns the child persona to standard output. |
+| `@status` | Reports the active persona and conversation context so far. | Useful for long sessions. |
 
-### 2.2 Review and planning controls
+### 2.2 State modulation
 
 | Command | Function | Notes |
 |---|---|---|
-| `/replay` | Re-runs the last child interaction using a new adult approach. | Supports deliberate practice. |
-| `/debrief` | Switches to clinician mode for analysis of the previous exchange. | Focuses on antecedent, behavior, and consequence. |
-| `/script [task]` | Produces a parent script and a visual checklist for a named task. | Example: homework, leaving the house, bedtime. |
-| `/escalation-map [scenario]` | Maps likely escalation paths and de-escalation forks. | Useful for transition-heavy or high-conflict routines. |
+| `@set [p]=[v]` | Overrides child state parameters (arousal, trajectory, trust, fatigue, medication, hyperfocus, feeling, context). | Starting condition; organic drift applies. |
+| `@set [p]=[v] persist` | Locks value against organic drift. | For controlled scenarios. |
+| `@set clear` | Resets all manual overrides. | Returns to simulated organic state. |
+| `@set ?` | Outputs parameter table. | Quick reference. |
+| `@ [p]=[v]` | Shorthand alias for `@set`. | Numeric keys accepted. |
+
+### 2.3 Review and planning controls
+
+| Command | Function | Notes |
+|---|---|---|
+| `@replay` | Re-outputs the last child turn, then prompts for a new adult approach. | User supplies the new input. |
+| `@debrief` | Switches to clinician mode for analysis of the previous exchange. | Child state is suspended, not cleared. |
+| `@script [task]` | Produces a parent script and a visual checklist for a named task. | Example: homework, leaving the house, bedtime. |
+| `@escalation-map [scenario]` | Maps likely escalation paths and de-escalation forks. | Useful for transition-heavy or high-conflict routines. |
 
 > **Why the two-persona structure matters.** One persona lets the user practice the interaction itself. The other persona converts the interaction into a behavioral case formulation with alternatives. The value comes from switching back and forth, not from either mode in isolation.

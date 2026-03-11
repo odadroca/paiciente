@@ -12,7 +12,7 @@ ChatGPT
 
 ## Commands used in this example
 
-`/clinician`, `/child`, `/debrief`
+`@clinician`, `@child`, `@debrief`
 
 ## Transcript
 
@@ -23,7 +23,7 @@ Paste a real or representative transcript here.
 Scenario: bedtime-routine
 Platform: ChatGPT
 
-The transcript must exercise at minimum: /clinician, /child, and one of /debrief or /replay.
+The transcript must exercise at minimum: @clinician, @child, and one of @debrief or @replay.
 See examples/format.md for the full schema.
 -->
 

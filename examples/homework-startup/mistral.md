@@ -12,7 +12,7 @@ Mistral
 
 ## Commands used in this example
 
-`/clinician`, `/child`, `/replay`
+`@clinician`, `@child`, `@replay`
 
 ## Transcript
 
@@ -23,7 +23,7 @@ Paste a real or representative transcript here.
 Scenario: homework-startup
 Platform: Mistral
 
-The transcript must exercise at minimum: /clinician, /child, and one of /debrief or /replay.
+The transcript must exercise at minimum: @clinician, @child, and one of @debrief or @replay.
 See examples/format.md for the full schema.
 -->
 

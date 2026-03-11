@@ -14,14 +14,14 @@ All example transcripts in this folder must follow the schema below. This ensure
 [e.g. claude-sonnet-4-6, gpt-4o, mistral-large-2]
 
 ## Commands used in this example
-[List slash commands exercised]
+[List commands exercised, e.g. `@clinician`, `@child`, `@set arousal=high`, `@debrief`]
 
 ## Transcript
 [Full turn-by-turn exchange. Label each turn:]
 **Adult:** ...
 **PAIciente (clinician):** ...
 **PAIciente (child):** ...
-**PAIciente (child + inner):** ... *(if /child:inner was active)*
+**PAIciente (child + inner):** ... *(if `@child:inner` was active)*
 
 ## What this example illustrates
 [1–3 sentences on the specific behavior or technique demonstrated]

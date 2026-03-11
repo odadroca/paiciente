@@ -12,6 +12,6 @@ Esta pasta contém traduções auxiliares em português europeu de componentes s
 
 1. Consulte as instruções gerais de contribuição em [`CONTRIBUTING.md`](/CONTRIBUTING.md).
 2. Crie o ficheiro traduzido nesta pasta, mantendo a estrutura e os nomes de ficheiro originais.
-3. Mantenha todos os comandos (`/clinician`, `/child`, `/debrief`, etc.) em inglês.
+3. Mantenha todos os comandos (`@clinician`, `@child`, `@debrief`, `@set`, etc.) em inglês.
 4. Indique no cabeçalho do ficheiro a versão EN de referência utilizada na tradução.
 5. Submeta via pull request com a etiqueta `i18n`.
