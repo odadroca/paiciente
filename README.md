@@ -76,6 +76,7 @@ Full documentation is available in [`/docs/`](docs/):
 - [Personas](docs/personas.md) — clinician and child persona specifications
 - [Workflow](docs/workflow.md) — recommended usage sequence
 - [Behavior map](docs/behavior-map.md) — unique instruction set
+- [Inner-state guide](docs/inner-state-guide.md) — using `/child:inner`
 - [Evidence map](docs/evidence-map.md) — academic grounding
 - [Limitations](docs/limitations.md) — safety boundaries
 - [Use cases](docs/use-cases.md) — example scenarios

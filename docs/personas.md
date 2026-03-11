@@ -33,3 +33,5 @@ The child persona is also constrained. It does not instantly "improve" to reward
 ## 3.3 Inner-state mode
 
 When `/child:inner` is enabled, each child reply is followed by a compact annotation containing four fields: feeling, arousal level, what would help, and what just made things worse. This mode preserves the role-play while providing the caregiver a functional interpretation layer.
+
+For a practical usage guide, see [Inner-state guide](inner-state-guide.md).
