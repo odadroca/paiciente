@@ -26,7 +26,7 @@ The intended scope is narrow by design. It is a simulation and documentation aid
 |---|---|---|
 | `/clinician` | Activates the clinician persona. | Default at conversation start. |
 | `/child` | Activates the child persona. | Used for live role-play. |
-| `/child:inner` | Adds an inner-state annotation after the child reply. | A compact cheat-sheet for the caregiver. |
+| `/child:inner` | Adds an inner-state annotation after the child reply (feeling, arousal, what would help, what made it worse). | A compact cheat-sheet for the caregiver. See [guide](docs/inner-state-guide.md). |
 | `/child:inner off` | Removes the inner-state annotation. | Returns the child persona to standard output. |
 | `/status` | Reports the active persona and conversation context so far. | Useful for long sessions. |
 
@@ -70,7 +70,7 @@ A strong role-play model can feel persuasive even when it is only approximate. F
 
 ## Documentation
 
-Full documentation is available in [`/docs/`](docs/):
+Full documentation is available in [`/docs/`](docs/). See the [Table of Contents](docs/table-of-contents.md) for a single-page overview of every file in the repository.
 
 - [Overview](docs/overview.md) — purpose, scope, and architecture
 - [Personas](docs/personas.md) — clinician and child persona specifications
