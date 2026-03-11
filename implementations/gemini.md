@@ -1,5 +1,10 @@
 # PAIciente on Gemini
+---
+### Sandbox link:
+* Platform constraint: user must be logged with 1 google account:
+  https://gemini.google.com/gem/1N5cyhZd34Pb-KEzMxdsaZxjSt7jKF4jm?usp=sharing
 
+---
 ## How to instantiate
 
 ### Step 1 — Create a Gem
@@ -15,13 +20,12 @@
 3. Paste the full system prompt into the **Instructions** field. Do not modify it — PAIciente handles language and context natively.
 4. Click **Save**.
 
-### Step 3 — Share via link
+### Step 3 - OPTIONAL - Share via link
 
 1. Open your saved Gem and click the **Share** button.
 2. Set the sharing permissions (Google Drive-style: "Anyone with the link" or restricted).
 3. Copy the share link.
 
-**Public Gem link:** [GEMINI_GEM_LINK]
 
 ## Notes
 

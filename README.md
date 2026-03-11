@@ -2,7 +2,7 @@
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-> PAIciente is a command-driven caregiver support framework that alternates between a clinician persona and a child-simulation persona. It is designed to help caregivers rehearse difficult interactions, analyze escalation patterns, and generate scripts and checklists grounded in evidence-informed ADHD and ODD frameworks.
+### PAIciente is a command-driven caregiver support framework that alternates between a clinician persona and a child-simulation persona. It is designed to help caregivers rehearse difficult interactions, analyze escalation patterns, and generate scripts and checklists grounded in evidence-informed ADHD and ODD frameworks.
 
 ---
 

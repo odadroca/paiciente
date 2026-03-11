@@ -52,14 +52,14 @@ A single-page overview of every document in the PAIciente repository.
 
 ## Implementation Guides
 
-| File | Description |
-|---|---|
-| [implementations/claude.md](../implementations/claude.md) | Setup via Claude Projects |
-| [implementations/chatgpt.md](../implementations/chatgpt.md) | Setup via Custom GPT (GPT Store) |
-| [implementations/mistral.md](../implementations/mistral.md) | Setup via Le Chat Agent |
-| [implementations/gemini.md](../implementations/gemini.md) | Setup via Gemini Gem |
-| [implementations/grok.md](../implementations/grok.md) | Setup via Grok (character limit warning) |
-| [implementations/llama.md](../implementations/llama.md) | Self-hosting with Ollama or Meta AI Studio |
+| File                                                        | Description                                |
+| ----------------------------------------------------------- | ------------------------------------------ |
+| [implementations/claude.md](../implementations/claude.md)   | Setup via Claude Projects                  |
+| [implementations/chatgpt.md](../implementations/chatgpt.md) | Setup via Custom GPT (GPT Store)           |
+| [implementations/mistral.md](../implementations/mistral.md) | Setup via Le Chat Agent                    |
+| [implementations/gemini.md](../implementations/gemini.md)   | Setup via Gemini Gem                       |
+| [implementations/grok.md](../implementations/grok.md)       | Setup via Grok (character limit warning)   |
+| [implementations/llama.md](../implementations/llama.md)     | Self-hosting with Ollama or Meta AI Studio |
 
 ---
 
