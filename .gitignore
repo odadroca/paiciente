@@ -1,0 +1,8 @@
+.gitignore
+.claude
+.obsidian
+paiciente-repo-bootstrap.md
+instructions.md
+examples/scenario.txt
+implementations/grok.md
+implementations/llama.md

@@ -29,8 +29,6 @@
 2. The GPT will be reviewed and listed in the GPT Store.
 3. Share the public link with users.
 
-**Public GPT Store link:** [GPT_STORE_LINK]
-
 ## Notes
 
 - **Creating GPTs requires Plus or Pro.** Free-tier users cannot create Custom GPTs - but can use the sandbox:

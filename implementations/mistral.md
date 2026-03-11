@@ -25,7 +25,6 @@
 2. Save the agent.
 3. Copy the public link to share with users.
 
-**Public Agent link:** [MISTRAL_AGENT_LINK]
 
 ## Notes
 

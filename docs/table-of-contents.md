@@ -52,14 +52,24 @@ A single-page overview of every document in the PAIciente repository.
 
 ## Implementation Guides
 
-| File                                                        | Description                                |
-| ----------------------------------------------------------- | ------------------------------------------ |
-| [implementations/claude.md](../implementations/claude.md)   | Setup via Claude Projects                  |
-| [implementations/chatgpt.md](../implementations/chatgpt.md) | Setup via Custom GPT (GPT Store)           |
-| [implementations/mistral.md](../implementations/mistral.md) | Setup via Le Chat Agent                    |
-| [implementations/gemini.md](../implementations/gemini.md)   | Setup via Gemini Gem                       |
-| [implementations/grok.md](../implementations/grok.md)       | Setup via Grok (character limit warning)   |
-| [implementations/llama.md](../implementations/llama.md)     | Self-hosting with Ollama or Meta AI Studio |
+| File | Description |
+|---|---|
+| [implementations/claude.md](../implementations/claude.md) | Setup via Claude Projects (self-instantiate) |
+| [implementations/chatgpt.md](../implementations/chatgpt.md) | Setup via Custom GPT — includes sandbox link |
+| [implementations/mistral.md](../implementations/mistral.md) | Setup via Le Chat Agent — includes sandbox link |
+| [implementations/gemini.md](../implementations/gemini.md) | Setup via Gemini Gem — includes sandbox link |
+
+### Platform-specific resources
+
+| File | Description |
+|---|---|
+| [implementations/resources/chatgpt/customgpt_v2_core_instructions.md](../implementations/resources/chatgpt/customgpt_v2_core_instructions.md) | ChatGPT Custom GPT — core instructions |
+| [implementations/resources/chatgpt/customgpt_v2_knowledge_01_child_persona_and_inner_state.md](../implementations/resources/chatgpt/customgpt_v2_knowledge_01_child_persona_and_inner_state.md) | ChatGPT Custom GPT — knowledge file: child persona and inner state |
+| [implementations/resources/chatgpt/customgpt_v2_knowledge_02_set_command_and_state_rules.md](../implementations/resources/chatgpt/customgpt_v2_knowledge_02_set_command_and_state_rules.md) | ChatGPT Custom GPT — knowledge file: `@set` command and state rules |
+| [implementations/resources/chatgpt/customgpt_v2_knowledge_03_clinician_shared_rules_and_commands.md](../implementations/resources/chatgpt/customgpt_v2_knowledge_03_clinician_shared_rules_and_commands.md) | ChatGPT Custom GPT — knowledge file: clinician, shared rules, and commands |
+| [implementations/resources/mistral/references.pdf](../implementations/resources/mistral/references.pdf) | Mistral agent — references document |
+| [implementations/resources/mistral/references-bib.pdf](../implementations/resources/mistral/references-bib.pdf) | Mistral agent — BibTeX references |
+| [implementations/resources/mistral/evidence-map.pdf](../implementations/resources/mistral/evidence-map.pdf) | Mistral agent — evidence map |
 
 ---
 

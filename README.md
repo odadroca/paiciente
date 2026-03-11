@@ -55,9 +55,9 @@ The intended scope is narrow by design. It is a simulation and documentation aid
 
 | Platform | Link |
 |---|---|
-| ChatGPT (GPT Store) | [LINK_PENDING] |
-| Mistral (Le Chat Agent) | [LINK_PENDING] |
-| Gemini (Gem) | [LINK_PENDING] |
+| ChatGPT (Custom GPT) | [Sandbox](https://chatgpt.com/g/g-69b1a7644f5c81919f3fca1bbc2926fa-paiciente-v2-0) |
+| Mistral (Le Chat Agent) | [Sandbox](https://chat.mistral.ai/chat/553205e3-526a-472d-99d0-0916596fa54b) |
+| Gemini (Gem) | [Sandbox](https://gemini.google.com/gem/1N5cyhZd34Pb-KEzMxdsaZxjSt7jKF4jm?usp=sharing) |
 | Claude | Self-instantiate via [implementation guide](implementations/claude.md) |
 
 See [`/implementations/`](implementations/) for step-by-step setup instructions on each platform.
