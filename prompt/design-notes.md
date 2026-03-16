@@ -43,3 +43,7 @@ Direct state modulation allows facilitators and experienced users to rehearse sp
 ### 6.6 Why trajectory carries forward
 
 Escalation trajectory does not reset between turns because real arousal does not reset between turns. A child who has been pushed to near-threshold does not return to baseline simply because the next adult statement is neutral. This design choice forces the caregiver to practice de-escalation as a multi-turn process, not a single corrective statement.
+
+---
+
+For the formal academic framing and extended rationale, see [Technical Rationale and Academic Positioning](../docs/Technical-Rationale-and-Academic-Positioning.md).

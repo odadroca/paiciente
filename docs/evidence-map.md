@@ -13,3 +13,5 @@ The documented behaviors and response rules align with major evidence-informed f
 | Need for comprehensive disorder overviews | Disease-primer literature | Provides modern, high-level summaries of ADHD and ODD mechanisms, diagnosis, and intervention. | Faraone et al. 2024; Hawes et al. 2023 |
 
 For full citation details, see [`/references/references.md`](/references/references.md).
+
+For the formal design framing and extended academic positioning, see [`/docs/Technical-Rationale-and-Academic-Positioning.md`](/docs/Technical-Rationale-and-Academic-Positioning.md).

@@ -4,6 +4,12 @@ All notable changes to PAIciente will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [2.1.0] — 2026-03-16
+
+### Added
+- `docs/Technical-Rationale-and-Academic-Positioning.md` — formal framing of PAIciente as a prompt-constrained polytropic system, with detailed design rationale and academic positioning.
+- Cross-references to the technical rationale added in `README.md`, `docs/table-of-contents.md`, `docs/evidence-map.md`, and `prompt/design-notes.md`.
+
 ## [2.0.0] — 2026-03-11
 
 ### Changed

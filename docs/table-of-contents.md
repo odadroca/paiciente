@@ -37,6 +37,7 @@ A single-page overview of every document in the PAIciente repository.
 | [docs/evidence-map.md](evidence-map.md) | Academic grounding for each design element |
 | [docs/limitations.md](limitations.md) | Safety boundaries and explicit constraints |
 | [docs/use-cases.md](use-cases.md) | Example scenarios: homework, device transition, bedtime, compound stress |
+| [docs/Technical-Rationale-and-Academic-Positioning.md](Technical-Rationale-and-Academic-Positioning.md) | Technical rationale and academic positioning — formal framing, design commitments, and evidence grounding |
 
 ---
 

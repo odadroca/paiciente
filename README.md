@@ -90,6 +90,7 @@ Full documentation is available in [`/docs/`](docs/). See the [Table of Contents
 - [Evidence map](docs/evidence-map.md) — academic grounding
 - [Limitations](docs/limitations.md) — safety boundaries
 - [Use cases](docs/use-cases.md) — example scenarios
+- [Technical rationale](docs/Technical-Rationale-and-Academic-Positioning.md) — formal framing and academic positioning
 
 Academic references: [`/references/`](references/)
 
