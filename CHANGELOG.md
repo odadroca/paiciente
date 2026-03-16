@@ -9,6 +9,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 ### Added
 - `docs/Technical-Rationale-and-Academic-Positioning.md` — formal framing of PAIciente as a prompt-constrained polytropic system, with detailed design rationale and academic positioning.
 - Cross-references to the technical rationale added in `README.md`, `docs/table-of-contents.md`, `docs/evidence-map.md`, and `prompt/design-notes.md`.
+- i18n infrastructure: `i18n/README.md` (conventions, tiers, version tracking), `i18n/STATUS.md` (cross-language translation status tracker).
+- PT-PT Tier 1 translations: `README.pt.md` (updated to match EN), `i18n/pt-PT/docs/overview.md`, `i18n/pt-PT/docs/personas.md`, `i18n/pt-PT/docs/workflow.md`, `i18n/pt-PT/docs/limitations.md`, `i18n/pt-PT/docs/use-cases.md`, `i18n/pt-PT/docs/inner-state-guide.md`, `i18n/pt-PT/CONTRIBUTING.md`.
 
 ## [2.0.0] — 2026-03-11
 
