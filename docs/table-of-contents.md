@@ -91,4 +91,9 @@ A single-page overview of every document in the PAIciente repository.
 
 | File | Description |
 |---|---|
+| [i18n/README.md](../i18n/README.md) | i18n overview, conventions, tier definitions, and contribution guide |
+| [i18n/STATUS.md](../i18n/STATUS.md) | Cross-language translation status tracker |
 | [i18n/pt-PT/README.md](../i18n/pt-PT/README.md) | European Portuguese translation status and guidelines |
+| [i18n/es/README.md](../i18n/es/README.md) | Spanish translation status and guidelines |
+| [i18n/fr/README.md](../i18n/fr/README.md) | French translation status and guidelines |
+| [i18n/de/README.md](../i18n/de/README.md) | German translation status and guidelines |

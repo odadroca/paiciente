@@ -20,6 +20,16 @@ Dieser Ordner enthält deutsche Übersetzungen ausgewählter Komponenten von PAI
 | `docs/use-cases.md` | [`docs/use-cases.md`](docs/use-cases.md) | v2.1.0 |
 | `docs/inner-state-guide.md` | [`docs/inner-state-guide.md`](docs/inner-state-guide.md) | v2.1.0 |
 | `CONTRIBUTING.md` | [`CONTRIBUTING.md`](CONTRIBUTING.md) | v2.1.0 |
+| `docs/behavior-map.md` | [`docs/behavior-map.md`](docs/behavior-map.md) | v2.1.0 |
+| `docs/evidence-map.md` | [`docs/evidence-map.md`](docs/evidence-map.md) | v2.1.0 |
+| `docs/table-of-contents.md` | [`docs/table-of-contents.md`](docs/table-of-contents.md) | v2.1.0 |
+| `docs/Technical-Rationale-and-Academic-Positioning.md` | [`docs/Technical-Rationale-and-Academic-Positioning.md`](docs/Technical-Rationale-and-Academic-Positioning.md) | v2.1.0 |
+| `prompt/design-notes.md` | [`prompt/design-notes.md`](prompt/design-notes.md) | v2.1.0 |
+| `references/references.md` | [`references/references.md`](references/references.md) | v2.1.0 |
+| `implementations/claude.md` | [`implementations/claude.md`](implementations/claude.md) | v2.1.0 |
+| `implementations/chatgpt.md` | [`implementations/chatgpt.md`](implementations/chatgpt.md) | v2.1.0 |
+| `implementations/gemini.md` | [`implementations/gemini.md`](implementations/gemini.md) | v2.1.0 |
+| `implementations/mistral.md` | [`implementations/mistral.md`](implementations/mistral.md) | v2.1.0 |
 
 Für den vollständigen Status aller Übersetzungen siehe [`/i18n/STATUS.md`](/i18n/STATUS.md).
 

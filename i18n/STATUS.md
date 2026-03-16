@@ -25,13 +25,13 @@ Last updated: 2026-03-16
 
 | File | EN version | PT-PT | ES | FR | DE |
 |---|---|---|---|---|---|
-| `docs/behavior-map.md` | v2.1.0 | — | — | — | — |
-| `docs/evidence-map.md` | v2.1.0 | — | — | — | — |
-| `docs/table-of-contents.md` | v2.1.0 | — | — | — | — |
-| `docs/Technical-Rationale-and-Academic-Positioning.md` | v2.1.0 | — | — | — | — |
-| `prompt/design-notes.md` | v2.1.0 | — | — | — | — |
-| `references/references.md` | v2.1.0 | — | — | — | — |
-| `implementations/claude.md` | v2.1.0 | — | — | — | — |
-| `implementations/chatgpt.md` | v2.1.0 | — | — | — | — |
-| `implementations/gemini.md` | v2.1.0 | — | — | — | — |
-| `implementations/mistral.md` | v2.1.0 | — | — | — | — |
+| `docs/behavior-map.md` | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 |
+| `docs/evidence-map.md` | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 |
+| `docs/table-of-contents.md` | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 |
+| `docs/Technical-Rationale-and-Academic-Positioning.md` | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 |
+| `prompt/design-notes.md` | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 |
+| `references/references.md` | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 |
+| `implementations/claude.md` | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 |
+| `implementations/chatgpt.md` | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 |
+| `implementations/gemini.md` | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 |
+| `implementations/mistral.md` | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 | v2.1.0 |
