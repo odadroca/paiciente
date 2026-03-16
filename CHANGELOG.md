@@ -11,6 +11,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 - Cross-references to the technical rationale added in `README.md`, `docs/table-of-contents.md`, `docs/evidence-map.md`, and `prompt/design-notes.md`.
 - i18n infrastructure: `i18n/README.md` (conventions, tiers, version tracking), `i18n/STATUS.md` (cross-language translation status tracker).
 - PT-PT Tier 1 translations: `README.pt.md` (updated to match EN), `i18n/pt-PT/docs/overview.md`, `i18n/pt-PT/docs/personas.md`, `i18n/pt-PT/docs/workflow.md`, `i18n/pt-PT/docs/limitations.md`, `i18n/pt-PT/docs/use-cases.md`, `i18n/pt-PT/docs/inner-state-guide.md`, `i18n/pt-PT/CONTRIBUTING.md`.
+- ES Tier 1 translations: `README.es.md`, `i18n/es/docs/overview.md`, `i18n/es/docs/personas.md`, `i18n/es/docs/workflow.md`, `i18n/es/docs/limitations.md`, `i18n/es/docs/use-cases.md`, `i18n/es/docs/inner-state-guide.md`, `i18n/es/CONTRIBUTING.md`.
+- FR Tier 1 translations: `README.fr.md`, `i18n/fr/docs/overview.md`, `i18n/fr/docs/personas.md`, `i18n/fr/docs/workflow.md`, `i18n/fr/docs/limitations.md`, `i18n/fr/docs/use-cases.md`, `i18n/fr/docs/inner-state-guide.md`, `i18n/fr/CONTRIBUTING.md`.
+- DE Tier 1 translations: `README.de.md`, `i18n/de/docs/overview.md`, `i18n/de/docs/personas.md`, `i18n/de/docs/workflow.md`, `i18n/de/docs/limitations.md`, `i18n/de/docs/use-cases.md`, `i18n/de/docs/inner-state-guide.md`, `i18n/de/CONTRIBUTING.md`.
 
 ## [2.0.0] — 2026-03-11
 
