@@ -1,12 +1,12 @@
 # PAIciente
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-
+#### [(PT)](https://github.com/odadroca/paiciente/blob/main/i18n/pt-PT/README.md)    [(ES)](https://github.com/odadroca/paiciente/blob/main/i18n/es/README.md)    [(FR)](https://github.com/odadroca/paiciente/blob/main/i18n/fr/README.md)    [(DE)](https://github.com/odadroca/paiciente/blob/main/i18n/de/README.md)    
 ### PAIciente is a command-driven caregiver support framework that alternates between a clinician persona and a child-simulation persona. It is designed to help caregivers rehearse difficult interactions, analyze escalation patterns, and generate scripts and checklists grounded in evidence-informed ADHD and ODD frameworks.
 
 ---
 
-## What it does
+## 🤨 What it does  
 
 PAIciente serves three practical functions:
 
@@ -18,7 +18,7 @@ The intended scope is narrow by design. It is a simulation and documentation aid
 
 ---
 
-## Command reference
+## 🗣️ Command reference  
 
 ### Core mode controls
 
@@ -30,7 +30,7 @@ The intended scope is narrow by design. It is a simulation and documentation aid
 | `@child:inner off` | Removes the inner-state annotation. | Returns the child persona to standard output. |
 | `@status` | Reports the active persona and conversation context so far. | Useful for long sessions. |
 
-### State modulation
+### ⚡ State modulation 
 
 | Command | Function | Notes |
 |---|---|---|
@@ -40,7 +40,7 @@ The intended scope is narrow by design. It is a simulation and documentation aid
 | `@set ?` | Outputs the parameter table with valid values. | Quick reference without modifying state. |
 | `@ [p]=[v]` | Shorthand alias for `@set`; numeric keys accepted. | e.g. `@ arousal=3 trust=2`. |
 
-### Review and planning controls
+### 📑 Review and planning controls 
 
 | Command | Function | Notes |
 |---|---|---|
@@ -51,7 +51,7 @@ The intended scope is narrow by design. It is a simulation and documentation aid
 
 ---
 
-## Try it
+## 💬 Try it 
 
 | Platform | Link |
 |---|---|
@@ -64,9 +64,9 @@ See [`/implementations/`](implementations/) for step-by-step setup instructions 
 
 ---
 
-## Limitations
+## ⚠️ Limitations 
 
-PAIciente has meaningful limits that should be documented explicitly:
+**PAIciente has meaningful limits that should be documented explicitly:**
 
 - It is a simulation and coaching aid, not a diagnostic engine.
 - It cannot replace a treating clinician, school team, or emergency assessment.
@@ -78,7 +78,7 @@ A strong role-play model can feel persuasive even when it is only approximate. F
 
 ---
 
-## Documentation
+## 🦉 Documentation 
 
 Full documentation is available in [`/docs/`](docs/). See the [Table of Contents](docs/table-of-contents.md) for a single-page overview of every file in the repository.
 
@@ -92,7 +92,7 @@ Full documentation is available in [`/docs/`](docs/). See the [Table of Contents
 - [Use cases](docs/use-cases.md) — example scenarios
 - [Technical rationale](docs/Technical-Rationale-and-Academic-Positioning.md) — formal framing and academic positioning
 
-Academic references: [`/references/`](references/)
+🧑‍🔬 Academic references: [`/references/`](references/)
 
 ---
 
